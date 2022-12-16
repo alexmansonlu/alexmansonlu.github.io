@@ -14,39 +14,39 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Taipei
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Hsinhua-Lu Portfolio                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Game Designer, Software Engineer, Artist   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Hsin-hua Lu is a game designer and design engineer based in Taiwan. He designs a diverse range of products all with a unique aesthetic and strong focus on human factor. Also, he does art and animation for areas including game industry, business commercial, etc.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://alexmansonlu.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: alexmansonlu             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+instagram:
+  username: alex_lulululu          # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: Hsinhua-Lu
+  email: alexmanson_lu@outlook.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://www.instagram.com/alex_lulululu/     # change to your twitter homepage
+    - https://github.com/alexmansonlu       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/lu-hsinhua-418834204/
 
 google_site_verification:               # fill in to your verification string
 
@@ -54,7 +54,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id:   G-CTQLF63BL7              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -71,7 +71,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:   dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://en.gravatar.com/userimage/229498023/dc309634b78124e461e817ccd8deb245.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
